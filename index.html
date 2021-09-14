@@ -1,0 +1,215 @@
+<html>
+    <head>
+        <title>Stúdio de Fotografia</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/estilos_menu.css">
+        <link rel="stylesheet" href="css/estilo_carrosel.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="js/carrosel.js">
+        <link rel="stylesheet" href="js/menu.js">
+        <link rel="icon" href="img/photo ..jpg">
+    
+    </head>
+    
+    <body>
+        <div id="main">
+    
+            <div id="header">
+    
+                <div id="logo_bar">ESTÚDIO<span>FOTOGRAFIA</span> </div>
+                <input type="checkbox" id="btt_menu"/>
+                <label for="btt_menu">&#9776;</label>   
+    
+                <div id="nav">
+    
+                    <ul>
+                        <li class="dropdown">
+                            <a href="javascript:" class="drop_btt">Home</a>
+                            <div class="dropdown_content"> 
+                                <a href="index.html">inicio</a>
+                                <a href="Quem somos.html">Quem somos</a>
+                                <a href="localizacao.html">localização</a>
+                                
+                                
+                            </div> 
+                        </li>
+    
+                        
+                        <li> <a href="ebook.html">E-book</a> </li>
+                    </ul>
+    
+                </div>
+    
+            </div>
+            <section class="home" id="home">
+            <div class="content">
+                <p>
+                    <h3>ESTE SITE</h3>
+
+                    A agência nasceu em 2021, criada pela fotografa Barbara Caruso. Hoje somos uma agência de Fotografia completa,
+                    com o conceito de gerar conteúdo autêntico para os seus clientes. O atendimento é personalizado, as ações são 
+                    criadas de acordo com os objetivos de cada marca e com o bom relacionamento.
+                </p>
+                <p>
+                    A construção de imagem de cada marca é pensada detalhadamente, integrando RP, assessoria de imprensa, 
+                    redação, cenografia, marketing estratégico, consultoria, branding e redes sociais - 
+                    caminhando entre o online e offline de maneira sempre atualizada.
+                </p>
+
+                <p>
+                    <h3>ENSAIO DE ANIVERSÁRIOS</h3>
+
+                    Trabalhamos com as mais variados ensaio para resgistrar a infancia do seu filho de maneira divertida e 
+                    única. Aproveitando cada momento especial com um ensaio especial e profissional.
+                </p>
+                <a href="#" class="btn">Venha já fazer o seu ensaio fotográfico com a gente</a>
+                
+            </div>
+
+            <div class="image">
+                <img src="img/logo.jpg">
+            </div>
+        </section>
+
+            <h1 class="frase"> Especialidades<span> De Fotos</span> </h1>
+
+            <div class="carrossel">   
+
+                <div class="wall">
+                    <div class="n_text"> 1 / 4 </div>
+                    <img src="img/bebe1.jpg" width="100%">
+                    <div class="i_text">  </div>
+                </div>
+
+                <div class="wall">
+                    <div class="n_text"> 2 / 4 </div>
+                    <img src="img/happy.jpg" width="100%">
+                    <div class="i_text"> </div>
+                </div>
+
+                <div class="wall">
+                    <div class="n_text"> 3 / 4 </div>
+                    <img src="img/bebe2.jpg" width="100%">
+                    <div class="i_text"> </div>
+                </div>
+
+                <div class="wall">
+                    <div class="n_text"> 4 / 4 </div>
+                    <img src="img/bebe4.jpg" width="100%">
+                    <div class="i_text"> </div>
+                </div>
+    
+                <a class="prev" onclick="plus_walls(-1)"> &#10094; </a>
+                <a class="next" onclick="plus_walls(1)"> &#10095; </a>
+            
+            </div>
+    
+            <div class="dots_box">
+                <span class="dot" onclick="current_walls(1)" ></span>
+                <span class="dot" onclick="current_walls(2)" ></span>
+                <span class="dot" onclick="current_walls(3)" ></span>
+                <span class="dot" onclick="current_walls(4)" ></span>
+            </div>
+            
+            <section class="popular" id="popular">
+
+                <h1 class="heading"> fotos <span> mais </span> Populares </h1>
+            
+                <div class="box-container">
+            
+                    <div class="box">
+                      
+                        <img src="img/images (15).jpg">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="box">
+                        
+                        <img src="img/images (7).jpg">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        
+                    </div>
+                    <div class="box">
+                        <img src="img/images (12).jpg">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="img/ensaio de gestante.jpg">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+            
+                    </div>
+                    <div class="box">
+                        <img src="img/imagem(14).jpeg">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="img/casamento.jpg">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                </section>
+            </div>
+           
+
+            <div id="footer">
+                <p>Desenvolvido por Barbara Caruso -2021</p>
+            </div>
+        
+        </div>    
+
+        <script src="js/carrosel.js"></script>
+    
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

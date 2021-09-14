@@ -1,0 +1,99 @@
+.carrossel{
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+}
+
+.prev, .next{
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 15px;
+    margin-top: -22px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.next{
+    right: 0;
+}
+
+.prev:hover, .next:hover{
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: #ff38385e;
+}
+
+.n_text{
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.i_text{
+    color: white;
+    background-color: black;
+    font-size: 22px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.dot{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    margin: 0px 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.active, .dot:hover{
+    transition: 0.3s;
+    background-color: #717171;
+}
+
+/* animação da troca de imagem */
+
+.wall{
+    /* para chrome e safari */
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    /* para outros navegadores */
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.dots_box{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* para chrome e safari */
+@-webkit-keyframes fade{
+    from{opacity: 0.4; }
+    to{opacity: 1; }
+}
+
+/* para outros navegadores */
+@keyframes fade{
+    from{opacity: 0.4; }
+    to{opacity: 1; }
+}
+
+@media screen and(max-width:640){
+    .carrossel{
+        width: 640px;
+    }
+}
